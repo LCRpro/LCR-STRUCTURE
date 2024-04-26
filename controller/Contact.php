@@ -1,13 +1,5 @@
 <?php
-class Contact {
-    private $db;
-
-    public function __construct($db) {
-        $this->db = $db;
-    }
-
-    public function index() {
-        include 'views/contact/index.php'; 
-    }
+function contactController($db) {
+    include 'views/contact/index.html'; 
 }
 ?>

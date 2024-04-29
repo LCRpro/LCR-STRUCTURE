@@ -9,16 +9,16 @@
   </a>
             <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 ">
                 <li>
-                    <a href="#" class=" hover:text-indigo-500 text-black me-4 md:me-6">Accueil</a>
+                    <a href="./" class=" hover:text-indigo-500 text-black me-4 md:me-6">Accueil</a>
                 </li>
                 <li>
-                    <a href="#" class="hover:text-indigo-500 text-black me-4 md:me-6">Biographie</a>
+                    <a href="biographie" class="hover:text-indigo-500 text-black me-4 md:me-6">Biographie</a>
                 </li>
                 <li>
-                    <a href="#" class=" hover:text-indigo-500 text-black me-4 md:me-6">Portfolio</a>
+                    <a href="portfolio" class=" hover:text-indigo-500 text-black me-4 md:me-6">Portfolio</a>
                 </li>
                 <li>
-                    <a href="#" class=" hover:text-indigo-500 text-black">Contact</a>
+                    <a href="contact" class=" hover:text-indigo-500 text-black">Contact</a>
                 </li>
             </ul>
         </div>

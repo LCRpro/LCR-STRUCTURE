@@ -1,7 +1,12 @@
 <?php
 function contactController($db) {
-    require_once 'models/Include.php';
 
-    include 'views/contact/index.php'; 
+    $title = "Contact";
+
+    require_once 'models/Include.php';
+    includeMeta($title); 
+    includeNav();    
+    include 'views/contact/index.php';
+    includeFooter();     
 }
 ?>

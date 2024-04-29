@@ -1,5 +1,6 @@
 <?php
-function includeMeta() {
+function includeMeta($title) {
+   
     include 'views/meta.php';
 }
 
@@ -10,4 +11,5 @@ function includeNav() {
 function includeFooter() {
     include 'views/footer.php';
 }
+
 ?>

@@ -1,6 +1,12 @@
 <?php
 function indexController($db) {
+
+    $title = "Accueil";
+
     require_once 'models/Include.php';
-    include 'views/index/index.php'; 
+    includeMeta($title); 
+    includeNav();    
+    include 'views/index/index.php';
+    includeFooter();     
 }
 ?>

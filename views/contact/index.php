@@ -1,13 +1,15 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <title>Page de Contact</title>
-    <link rel="stylesheet" href="./assets/css/output.css">
-</head>
-<body>
 
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<?php includeMeta(); ?>
+<?php includeNav(); ?>
+
+
+
+
+        
+
+
+
+
     <div class="min-h-screen bg-gray-800 py-6 flex flex-col justify-center sm:py-12">
     <div class="relative py-3 sm:max-w-xl sm:mx-auto">
         <div
@@ -54,5 +56,6 @@
 </div>
 
 <script src="../../assets/js/contact.js"></script>
+<?php includeFooter(); ?>
 
 

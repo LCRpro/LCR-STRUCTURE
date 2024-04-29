@@ -20,7 +20,7 @@ if (empty($request)) {
 }
 
 $controllerPath = __DIR__ . '/controller/' . ucfirst($request) . '.php';
-$viewPath = __DIR__ . '/views/' . $request . '/index.html';
+$viewPath = __DIR__ . '/views/' . $request . '/index.php';
 
 if (file_exists($controllerPath) && file_exists($viewPath)) {
     require $controllerPath;  

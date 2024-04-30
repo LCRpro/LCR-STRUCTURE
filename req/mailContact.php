@@ -7,7 +7,7 @@ require '../config/config.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   
-    $recaptchaSecretKey = '6Lc62sUpAAAAADCB9SMJtDEPsa9ieO92-EpxcRDS'; 
+    $recaptchaSecretKey = '6LcVvsspAAAAACqL9Nii8Q_Dc9M1_CWuH_LKT3nY'; 
     $recaptchaResponse = $_POST['g-recaptcha-response'];
 
     $recaptchaUrl = 'https://www.google.com/recaptcha/api/siteverify';

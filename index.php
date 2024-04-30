@@ -1,9 +1,13 @@
 <?php
 require_once 'config/config.php';
 
+$env_file = file_exists('.env.local') ? '.env.local' : '.env';
+$env = parse_ini_file($env_file);
+
 function getDB() {
+    global $env;
     try {
-        $pdo = new PDO('mysql:host=' . DB_HOST . ';port=' . DB_PORT . ';dbname=' . DB_NAME, DB_USER, DB_PASS);
+        $pdo = new PDO('mysql:host=' . $env['DB_HOST'] . ';dbname=' . $env['DB_NAME'], $env['DB_USER'], $env['DB_PASS']);
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         return $pdo;
     } catch(PDOException $e) {
@@ -11,6 +15,10 @@ function getDB() {
         exit();
     }
 }
+
+
+
+
 
 $request = trim($_SERVER['REQUEST_URI'], '/');
 $request = trim(str_replace(BASE_URL, '', $request), '/'); 

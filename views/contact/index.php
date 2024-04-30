@@ -26,7 +26,7 @@
                 <textarea class="shadow mb-4 min-h-0 appearance-none border rounded h-64 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="Votre message..." name="message" style="height: 121px;"></textarea>
                 <span id="messageError" class="error"></span>
 
-                <div class="g-recaptcha" data-sitekey="6Lc62sUpAAAAAAMcGVygRxv8qNhDgm7EBdSRtg-K"></div><br>
+                <div class="g-recaptcha" data-sitekey="6LcVvsspAAAAAGQsZK8JtHQwcxmHEqh-dQa4BUir"></div><br>
 
                 <div class="flex justify-between">
                     <input class="shadow bg-indigo-200 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit" value="Envoyer ➤">
